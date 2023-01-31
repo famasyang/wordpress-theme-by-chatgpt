@@ -1,0 +1,24 @@
+/*
+Theme Name: chatgpt build
+Author: yan and chatgpt
+Description: This is a chatgpt built theme
+Version: 1.2
+*/
+
+article {
+  width: 90%;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 480px) {
+  /* 这里的样式会针对宽度不超过 480px 的设备生效 */
+  article {
+    width: 100%;
+    margin: 0;
+  }
+}
